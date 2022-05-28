@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./Assets/Img/favicon2.ico" type="image/x-icon">
+        <title>INMOBILIARIA BELSITO</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/Style.css">
+        <script src="/Formularios.js"></script>
+        <script src="https://kit.fontawesome.com/73151fb757.js" crossorigin="anonymous"></script>
+    </head>
+        <body>
+            <header>
+                <h1 >INMOBILIARIA BELSITO</h1>
+                <nav>
+                    <ul >
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="Ubicacion.html">Nuestras Oficinas</a></li>
+                        <li><a href="https://www.argenprop.com/Belsito-Inmobiliaria/inmuebles-anunciante-151262" target="_blank">Nuestras Propiedades</a></li>
+                        <li><a href="QuienesSomos.html">Quienes Somos</a></li>
+                        <li><a href="Tasaciones.html">Tasaciones</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <br><br>
+                <h2 class="MySub">Dejanos tu mensaje.</h2> <br><br>
+
+                <form action="" method="GET" enctype="application/x-www-form-urlencoded" id="FormContacto" name="FormContacto">
+                    <h3 class="TitulosFormularios">Apellido y Nombre: </h3>
+                    <label for="ApellidoyNombre">  </label> <br>
+                    <input type="text" name="ApellidoyNombre" id="ApellidoyNombre" required>  
+                    <br><br>
+                    <h3 class="TitulosFormularios">E-mail: </h3>
+                    <label for="email"></label><br>
+                    <input type="email" name="email" id="emailContacto" required>
+                    <br><br>
+                    <h3 class="TitulosFormularios">Dejandos tu mensaje: </h3>
+                    <label for="Mensaje"></label><br>
+                    <textarea name="mensaje" id="MensajeContacto" cols="30" rows="10" maxlength="3000" required></textarea>
+                    <br><br>
+                    <input type="button" onclick="FormularioContacto()" value="Enviar">
+                    <br>
+                    <input type="reset" value="Borrar">
+
+                </form>
+
+
+
+            </main>
+            <br><br>
+            <footer id="FooterInmobiliaria">
+                Todos los derechos reservados a Belsito Inmobiliaria S.A. - 2022
+                <br>
+                <section id="iconos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitch"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </section>
+            </footer>
+        </body>
+</html>

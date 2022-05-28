@@ -1,0 +1,338 @@
+*{
+    margin: 0; padding: 0;
+    /*background-color: rgb(254, 234, 250);*/
+}
+body{
+    font-family: 'Syne', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/*INDEX*/
+h1{
+    /*background-color: rgb(254, 234, 250);*/
+    text-align: center;
+    color: rgb(254, 234, 250);
+    font-size: 85px;
+    font-style:normal;
+    font-weight: bolder;
+    font-family: 'Syne', serif; 
+    text-decoration: none;
+    }
+header{
+    /*background-color:rgb(222, 226, 255);*/
+    background-image:  url(/Assets/Img/City-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.MySub{
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Syne', serif;
+    color: rgb(57, 61, 63);
+    text-decoration:none;
+
+}
+#Fundacion{
+    width: 450px;
+    border: 20px solid rgb(142, 154, 200);
+    border-radius: 5%;
+    padding: 50px;
+    margin: auto;
+    text-align: justify;
+    display:flexbox;
+    font-size: 20px;
+    transform: translate(-60%, 15%);
+    color: rgb(57, 61, 63);
+}
+
+#FotoFrente{
+  width: 655px;
+  position: relative;
+  border: 20px solid rgb(142, 154, 200);
+  border-radius: 5%;
+  top: -456px;
+  left: -90px;
+  margin: auto;
+  float: right;
+  
+}
+
+/*FOOTER*/
+#FooterInmobiliaria{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+}
+#iconos{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+
+/*BARRA DE NAVEGACION*/
+/*#nav{
+    background-color: rgb(142, 154, 200);
+}*/
+ul {
+    text-align: center;
+    border-radius: 30px;
+    list-style-type: none;
+    margin: auto;
+    padding: 2;
+    overflow: hidden;
+    /*background-color:rgb(142, 154, 200);*/
+    position: sticky;
+    width: 90%;
+}
+  li{
+    display: inline-block;   
+    }
+  li a{
+    display: block;
+    font-size: large;
+    color: rgb(254, 234, 250);
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    /*background-color: rgb(142, 154, 200);*/
+}
+  
+  li a:hover {
+    background-color: rgb(142, 154, 200);
+  }
+
+  /*QUIENES SOMOS*/
+
+  #wrapper
+{
+  margin:0 auto;
+  padding:0px;
+  text-align:center;
+  width:995px;
+ }
+ #wrapper h1
+ {
+  margin-top:50px;
+  font-size:45px;
+ }
+ #wrapper p
+ {
+  font-size:16px;
+ }
+ #timeline
+ {
+  position:relative;
+  width:700px;
+  height:890px;
+  float:left;
+  margin-left:145px;
+  
+ }
+ #timeline_bar
+ {
+  padding: 0;
+  list-style: none;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  background-color:rgb(142, 154, 200);
+  border-radius:10px;
+ }
+ #timeline li
+ {
+  position:relative;
+  margin-top:20px;
+  margin-bottom:20px;
+  width:330px;
+  height:130px;
+  background-color:rgb(142, 154, 200);
+  padding:15px;
+  box-sizing:border-box;
+  border-radius:10px;
+  list-style-type:none;
+  color:rgb(254, 234, 250);
+  font-size:15px;
+  text-align: justify;
+ }
+ #timeline li:nth-child(odd) 
+ {
+  margin-right:20px;
+  right: -18px;
+ }
+ #timeline li:nth-child(even)
+ {
+  left:10px;
+ }
+
+
+  #FotoAgustin{
+    position: relative;
+    padding: 5px; 
+    margin: 10px; 
+    border: 2px solid rgb(142, 154, 200); 
+    float: left; 
+    width: 250px;
+    left: -300px;
+    top: -200px;
+  }
+
+  #FotoGustavo{
+    position: relative;
+    padding: 5px; 
+    margin: 10px; 
+    border: 2px solid rgb(142, 154, 200); 
+    float: right; 
+    width: 250px;
+    right: -300px;
+    top: -200px;
+  }
+  #FotoLuciano{
+    position: relative;
+    padding: 5px; 
+    margin: 10px; 
+    border: 2px solid rgb(142, 154, 200); 
+    float: left; 
+    width: 250px;
+    left: -300px;
+    top: -200px;
+  }
+  #Iframe-Video{
+    position: relative;
+    float: right;
+    overflow: hidden;
+    padding-right: 20px;
+    top: -30px;
+  }
+
+
+  
+  /*UBICACION*/
+
+  #Ubicacion{
+    width: 450px;
+    border: 30px solid rgb(142, 154, 200);
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    display:flexbox;
+    font-size: 20px;
+    color: rgb(57, 61, 63);
+  }
+
+
+.Iframe-Mapa {
+    width: 512px;
+    height: 384px;
+    display: block;
+    margin: auto;
+    border: 30px solid rgb(142, 154, 200);
+    
+}
+  #BoxUbicacion{
+    width: 450px;
+    border: 20px solid rgb(142, 154, 200);
+    border-radius: 5%;
+    padding: 50px;
+    margin: auto;
+    text-align: justify;
+    display:flexbox;
+    font-size: 20px;
+    color: rgb(57, 61, 63);
+  }
+  
+
+  /*FORMULARIOS*/
+
+  input[type=text], input[type=tel], input[type=email] {
+    background-color: rgb(142, 154, 200);
+    color: rgb(57, 61, 63);
+    width: 40%;
+    padding: 16px 32px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(142, 154, 200);
+    border: 2px solid rgb(57, 61, 63);
+    color: rgb(57, 61, 63);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    border-color:rgb(57, 61, 63);
+    font-style:italic;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    box-shadow:inset 0px 1px 0px 0px rgb(57, 61, 63);
+    text-shadow:inset 0px 1px 0px rgb(57, 61, 63);
+    border-width:1px;
+    right: 30%;
+  
+  }
+
+
+  #TipoDeTasacion{
+    background-color: rgb(142, 154, 200);
+    color: rgb(57, 61, 63);
+    width: 40%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+  }
+  label{
+    text-align: center;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: auto;
+    padding: 2px;
+    overflow:hidden;
+    background-color:none;
+    display: flex;
+    color: rgb(57, 61, 63);
+    
+  }
+  textarea {
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(57, 61, 63);
+    border-radius: 4px;
+    background-color: rgb(142, 154, 200);
+    resize: none;
+    color: rgb(57, 61, 63);
+  }
+  .TitulosFormularios{
+    text-align: center;
+    margin: auto;
+    font-size: 23px;
+    font-family: 'Syne', serif;
+    color: rgb(57, 61, 63);
+    text-decoration: none;
+  }
+
+ 
+  
